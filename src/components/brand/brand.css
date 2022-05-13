@@ -1,0 +1,33 @@
+.gpt3__brands{
+    display: flex;
+    flex:1;
+    align-items:center;
+    align-self: center;
+    justify-content: center;
+}
+.Brands{
+    display: flex;
+    justify-content: center;
+    flex:1;
+    padding: 4px;
+}
+.Brands img{
+    padding: 2rem;
+}
+@media screen and (max-width: 778px){
+    .Brands{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex:1;
+        justify-self: center;
+        align-items: center;
+        align-self: center;
+    }
+    .Brands img{
+        padding: 1rem;
+        flex:.4;
+        max-width: 100%; 
+        height:100%;      
+    }
+}

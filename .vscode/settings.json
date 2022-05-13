@@ -1,0 +1,5 @@
+{
+    "editor.fontFamily": "'Fira Code', 'Fira Code Retina','Fira Code Bold'",
+    "editor.fontSize": 10,
+    "files.autoSave": "onFocusChange"
+}
