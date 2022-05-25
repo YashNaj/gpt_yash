@@ -1,0 +1,106 @@
+.gpt3__features-page-container {
+  display: flex;
+}
+.gpt3__features-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.gpt3__features-page__header {
+  display: flex column;
+  justify-content: space-between;
+  flex:.4;
+}
+.gpt3__features-page__header h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  max-width: 700px;
+  margin-top: 2rem;
+}
+.gpt3__features-page__header p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 2rem;
+  cursor: pointer;
+
+  color: #FF8A71;
+}
+.gpt3__features-page__header_features-list{
+    display: flex column;
+    padding:0;
+    flex: .6;
+}
+.gpt3__features-page__header_features-list .gpt3__features-container__feature{
+    margin: 2rem;
+}
+.gpt3__features-page__header_features-list .gpt3__features-container__feature h1{
+    line-height: 34px;
+    flex: 1;
+    letter-spacing: -0.04em;
+    margin-top: .25rem;
+}
+.gpt3__features-page__header_features-list .gpt3__features-container__feature div{
+}
+.gpt3__features-page__header_features-list .gpt3__features-container__feature-text{
+    flex: 1;
+    display: flex row;
+    margin-left: 4rem;
+}
+@media screen and (max-width: 850px) {
+    .gpt3__features-page-container {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 0rem;
+      padding:0;
+    }
+    .gpt3__features-page {
+      flex-direction: column;
+      justify-content: center;
+    }    
+  
+    .gpt3__features- p {
+      margin-top: 1rem;
+    }
+    .gpt3__features-page-container .gpt3__features-container__feature-text{
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+    .gpt3__features-page-container .gpt3__features-container__feature-title{
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .gpt3__features-page__header_features-list .gpt3__features-container__feature {
+      flex-direction: column;
+      margin:0;
+      align-items: flex-start;
+      margin-top: 2rem;
+    }
+  
+    /* Customizing feature component as per needs */
+    .gpt3__features-page-__header_features-list.gpt3__features-container__feature-text {
+      margin-top: 0.5rem;
+      flex-direction: column;
+      max-width: 100%;
+      align-self: flex-end;
+      margin:0;
+    }
+
+  }
+  
+  @media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .gpt3__features-page-container .gpt3__features-container__feature {
+      margin: 1rem 0;
+      min-width: 100%;
+    }
+  }
